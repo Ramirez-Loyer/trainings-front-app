@@ -3,8 +3,8 @@ export class Training {
     name : string;
     description: string;
     price : number;
-    quantity:number
-
+    quantity:number;
+    
 
     constructor(id:number, name:string, description:string,price:number, quantity:number){
         this.id = id;
@@ -14,3 +14,19 @@ export class Training {
         this.quantity= quantity;
     }
 };
+
+
+export class Cart {
+    id : number;
+    name : string;
+    quantity:number;
+    price : number;
+   
+    constructor(id:number, name:string, description:string,price:number, quantity:number){
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.quantity= quantity;
+    }
+};
+
